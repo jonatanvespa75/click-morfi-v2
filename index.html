@@ -12,6 +12,7 @@
             --texto: #ffffff;
             --texto-secundaria: #aaaaaa;
             --whatsapp: #25d366;
+            --llamada: #007bff;
         }
 
         * {
@@ -106,8 +107,20 @@
             text-align: center;
         }
 
-        .btn-wp:active {
-            transform: scale(0.98);
+        .btn-tel {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            background-color: var(--llamada);
+            color: #fff;
+            text-decoration: none;
+            padding: 12px;
+            border-radius: 8px;
+            font-weight: bold;
+            font-size: 14px;
+            transition: transform 0.2s;
+            text-align: center;
         }
     </style>
 </head>
@@ -119,13 +132,11 @@
 
     <div class="container">
 
-        <!-- ==================== ROTISERÍAS ==================== -->
-
         <div class="card">
-            <div class="card-img">[Foto de la comida de Las Norteñitas]</div>
+            <div class="card-img">[Foto de El Rey del Pollo]</div>
             <div class="card-info">
-                <div class="card-title">🍲 Las Norteñitas</div>
-                <div class="card-dir">📍 Ocampo 931, Cañada de Gómez</div>
+                <div class="card-title">🍗 El Rey del Pollo</div>
+                <div class="card-dir">📍 San Martín 1540, Cañada de Gómez</div>
                 <a href="https://wa.me" target="_blank" class="btn-wp">
                     📱 Pedir por WhatsApp
                 </a>
@@ -133,122 +144,21 @@
         </div>
 
         <div class="card">
-            <div class="card-img">[Foto de la comida de El Chavo de la 9]</div>
+            <div class="card-img">[Foto de Parrilla El Quincho]</div>
             <div class="card-info">
-                <div class="card-title">🥪 El Chavo de la 9</div>
-                <div class="card-dir">📍 Av. Santa Fe 1188 (esquina Suipacha), Cañada de Gómez</div>
-                <a href="https://wa.me" target="_blank" class="btn-wp">
-                    📱 Pedir por WhatsApp
-                </a
-            </div>
-        </div>
-
-        <div class="card">
-            <div class="card-img">[Foto de la comida de La Roti del Feis]</div>
-            <div class="card-info">
-                <div class="card-title">🍕 La Roti del Feis</div>
-                <div class="card-dir">📍 Valparaíso 343, Cañada de Gómez</div>
-                <a href="https://wa.me/5493471342236" target="_blank" class="btn-app">
-📱 Pedir por WhatsApp
-</a>
-            </div>
-        </div>
-
-        <div class="card">
-            <div class="card-img">[Foto de la comida de Como en Casa]</div>
-            <div class="card-info">
-                <div class="card-title">🍲 Como en Casa</div>
-                <div class="card-dir">📍 Ocampo 708, Cañada de Gómez</div>
-                <a href="https://wa.me" target="_blank" class="btn-wp">
-                    📱 Pedir por WhatsApp
+                <div class="card-title">🥩 Parrilla El Quincho</div>
+                <div class="card-dir">📍 Pringles 124, Cañada de Gómez</div>
+                <a href="tel:+543471422615" class="btn-tel">
+                    📞 Llamar por Teléfono
                 </a>
             </div>
         </div>
 
         <div class="card">
-            <div class="card-img">[Foto de la comida de De la Virgi]</div>
+            <div class="card-img">[Foto de Rotisería Doña Juana]</div>
             <div class="card-info">
-                <div class="card-title">🍲 De la Virgi - Roti & Resto</div>
-                <div class="card-dir">📍 Ocampo 536, Cañada de Gómez</div>
-                <a href="https://wa.me" target="_blank" class="btn-wp">
-                    📱 Pedir por WhatsApp
-                </a>
-            </div>
-        </div>
-
-        <div class="card">
-            <div class="card-img">[Foto de la comida de La Proveeduría]</div>
-            <div class="card-info">
-                <div class="card-title">🥪 La Proveeduría (Comedor Urbano)</div>
-                <div class="card-dir">📍 Ocampo 715, Cañada de Gómez</div>
-                <a href="https://wa.me" target="_blank" class="btn-wp">
-                    📱 Pedir por WhatsApp
-                </a>
-            </div>
-        </div>
-
-        <div class="card">
-            <div class="card-img">[Foto de la comida de Comedor Humita]</div>
-            <div class="card-info">
-                <div class="card-title">🌽 Comedor Humita (Comidas al paso)</div>
-                <div class="card-dir">📍 Ruta Nacional 9, Cañada de Gómez</div>
-                <a href="https://wa.me" target="_blank" class="btn-wp">
-                    📱 Pedir por WhatsApp
-                </a>
-            </div>
-        </div>
-
-        <div class="card">
-            <div class="card-img">[Foto de la comida de Rotisería Perrone]</div>
-            <div class="card-info">
-                <div class="card-title">🥩 Rotisería Perrone</div>
-                <div class="card-dir">📍 N. Oroño 117, Cañada de Gómez</div>
-                <a href="https://wa.me" target="_blank" class="btn-wp">
-                    📱 Pedir por WhatsApp
-                </a>
-            </div>
-        </div>
-
-        <div class="card">
-            <div class="card-img">[Foto de la comida de Rotisería 180 Grados]</div>
-            <div class="card-info">
-                <div class="card-title">🍗 Rotisería 180 Grados</div>
-                <div class="card-dir">📍 Almirante Brown 895, Cañada de Gómez</div>
-                <a href="https://wa.me" target="_blank" class="btn-wp">
-                    📱 Pedir por WhatsApp
-                </a>
-            </div>
-        </div>
-
-        <!-- ==================== PIZZERÍAS ==================== -->
-
-        <div class="card">
-            <div class="card-img">[Foto de la comida de ASAP American Pizzas]</div>
-            <div class="card-info">
-                <div class="card-title">🍕 ASAP American Pizzas</div>
-                <div class="card-dir">📍 Beltrame 1015, Cañada de Gómez</div>
-                <a href="https://wa.me" target="_blank" class="btn-wp">
-                    📱 Pedir por WhatsApp
-                </a>
-            </div>
-        </div>
-
-        <div class="card">
-            <div class="card-img">[Foto de la comida de Porky's Pizzas]</div>
-            <div class="card-info">
-                <div class="card-title">🍕 Porky's Pizzas</div>
-                <div class="card-dir">📍 Zona Centro, Cañada de Gómez</div>
-                <a href="https://wa.me" target="_blank" class="btn-wp">
-                    📱 Pedir por WhatsApp
-                </a>
-            </div>
-        </div>
-
-        <div class="card">
-            <div class="card-img">[Foto de la comida de La Imperial]</div>
-            <div class="card-info">
-                <div class="card-title">🍕 La Imperial (Pizzas y Bar)</div>
-                <div class="card-dir">📍 Lavalle 801, Cañada de Gómez</div>
+                <div class="card-title">🍲 Rotisería Doña Juana</div>
+                <div class="card-dir">📍 Marconi 440, Cañada de Gómez</div>
                 <a href="https://wa.me" target="_blank" class="btn-wp">
                     📱 Pedir por WhatsApp
                 </a>
@@ -256,6 +166,5 @@
         </div>
 
     </div>
-
 </body>
 </html>
